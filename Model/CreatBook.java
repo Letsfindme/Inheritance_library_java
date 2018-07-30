@@ -17,6 +17,8 @@ public class CreatBook {
 		   newChiled.setYear(1990);
 		   newChiled.setType("Story");
 		   newChiled.setEditor("C'est moi");
+		   newChiled.setSorcieresPrize(true);
+		   newChiled.sorcieresPrize();
 		   newChiled.setBooked(true);
 		   newChiled.isBooked();
 		   
@@ -26,6 +28,8 @@ public class CreatBook {
 		   theCorse.setYear(2018);
 		   theCorse.setType("Mag");
 		   theCorse.setEditor("C'est le voisin");
+		   theCorse.setColored(true);
+		   theCorse.colored();
 		   theCorse.setBooked(false);
 		   theCorse.isBooked();
 		   
@@ -35,6 +39,8 @@ public class CreatBook {
 		   WhiteFang.setYear(1889);
 		   WhiteFang.setType("Novel");
 		   WhiteFang.setEditor("White Fang");
+		   WhiteFang.setGoncourtPrize(true);
+		   WhiteFang.goncourtPrize();
 		   WhiteFang.setBooked(false);
 		   WhiteFang.isBooked();
 		   
