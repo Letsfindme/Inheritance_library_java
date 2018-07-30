@@ -1,7 +1,11 @@
 package Model;
 
 import Model.Library.Books;
-
+/**
+ * 
+ * @author Fadi NOUFAL
+ *
+ */
 public class CreatBook {
 
 	public static void main(String[] args) {
@@ -24,6 +28,15 @@ public class CreatBook {
 		   theCorse.setEditor("C'est le voisin");
 		   theCorse.setBooked(false);
 		   theCorse.isBooked();
+		   
+		   Novel WhiteFang = new Novel();
+		   WhiteFang.setTitle("White Fang");
+		   WhiteFang.setAuthor("Jack London");
+		   WhiteFang.setYear(1889);
+		   WhiteFang.setType("Novel");
+		   WhiteFang.setEditor("White Fang");
+		   WhiteFang.setBooked(false);
+		   WhiteFang.isBooked();
 		   
 	}
 
