@@ -4,6 +4,8 @@ import java.util.*;
 
 /**
  * 
+ * @author Fadi NOUFAL
+ *
  */
 public class Books {
 
@@ -13,46 +15,27 @@ public class Books {
      * 
      */
     public String title;
-
-    /**
-     * 
-     */
     public String author;
-
-    /**
-     * 
-     */
     public int year;
-
-    /**
-     * 
-     */
     public String type;
-
-    /**
-     * 
-     */
     public String editor;
-
-    /**
-     * 
-     */
     public Boolean booked;
 
     /**
+     * 
      */
     public void isBooked() {
         // TODO implement here
     	System.out.println("Title: "+ title);
-    	System.out.println("author: "+ author);
-    	System.out.println("year: "+ year);
-    	System.out.println("type: "+ type);
-    	System.out.println("editor: "+ editor);
+    	System.out.println("Author: "+ author);
+    	System.out.println("Year: "+ year);
+    	System.out.println("Type: "+ type);
+    	System.out.println("Editor: "+ editor);
     	if (booked == true) {
     		System.out.println("Sorry this book is reserved");
     	}else {
 
-    		System.out.println("this book is available");
+    		System.out.println("This book is available");
     	}
     	System.out.println("\n");
         
